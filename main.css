@@ -1,13 +1,21 @@
+/* Set the height of the <h1> element to 150px and make the line height 150px as well */
 h1 {
     height: 150px;
     line-height: 150px;
 }
 
+/* Create a CSS class called "border" and set the border width to 3px. 
+   The "!important" rule is used to give this style higher specificity, 
+   which means it will override any other styles that try to set the border width. */
 .border {
     border-width: 3px !important;
 }
 
+/* Media query: Apply the following styles only when the viewport width is at most 762px */
 @media (max-width: 762px) {
+    /* Inside the media query, set the height of the <h1> element to 100px 
+       and adjust the line height to 100px as well. This will change the height 
+       of the <h1> element when the screen width is 762px or less. */
     h1 {
         height: 100px;
         line-height: 100px;
